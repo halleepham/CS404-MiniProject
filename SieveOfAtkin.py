@@ -1,6 +1,8 @@
 import random
 import time
 
+# Source: modified version from GeeksforGeeks
+# https://www.geeksforgeeks.org/sieve-of-atkin/
 def SieveOfAtkin(limit):
   # 2 and 3 are known to be prime
   if limit > 2:
