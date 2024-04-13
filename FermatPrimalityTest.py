@@ -1,6 +1,8 @@
 import random
 import time
 
+# Source: modified version from GeeksforGeeks
+# https://www.geeksforgeeks.org/fermat-method-of-primality-test/
 # Iterative Function to calculate (a^n)%p in O(logy) 
 def power(a, n, p):
     res = 1
