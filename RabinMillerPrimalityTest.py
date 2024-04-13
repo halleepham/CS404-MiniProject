@@ -1,6 +1,8 @@
 import random 
 import time
 
+#Source: Modified version from GeeksforGeeks
+#https://www.geeksforgeeks.org/primality-test-set-3-miller-rabin/
 def power(x, y, p):
     # Initialize result
     res = 1
